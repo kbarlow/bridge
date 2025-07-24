@@ -1,0 +1,9 @@
+# Bridge DSL configuration
+# Schema-to-SQL mappings
+
+tables:
+  transactions: "transactions"
+
+fields:
+  net_deposits: "SUM(amount)"
+  region: "region"
