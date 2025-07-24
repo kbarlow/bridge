@@ -1,6 +1,6 @@
 # 🌉 Bridge DSL
 
-Bridge is a simple, human-readable language designed to express business logic and data questions — without writing SQL (or other languages). It's an abstraction layer that translates intent into structured queries using a configurable domain vocabulary.
+Bridge is a simple, human-readable language designed to express business logic and data questions — without writing SQL. It's an abstraction layer that translates intent into structured queries using a configurable domain vocabulary.
 
 ---
 
@@ -87,3 +87,44 @@ The system does the following under the hood:
 
 ---
 
+## 🚀 Next Steps
+
+- Add support for `DEFINE` expressions
+- Implement `WHERE` and `FILTER TO`
+- Introduce templated output backends (SQL, Python, etc.)
+- Allow AI agents to generate Bridge DSL from natural questions
+---
+
+## 🧬 Language Evolution
+
+Bridge is designed to grow with its users — both human and machine. Its simplicity is intentional, but it’s also meant to be extensible. One key feature currently in progress is:
+
+### 🔤 `DEFINE` Expressions
+
+Bridge allows the definition of reusable business logic with natural semantics:
+
+```bridge
+DEFINE good_customer AS: tenure > 24 AND avg_balance > 5000
+
+SHOW net_deposits BY region
+WHERE customer_type = good_customer
+```
+
+This:
+- Encapsulates domain logic in a readable form
+- Makes queries more understandable for analysts
+- Enables reuse across multiple queries
+- Encourages a shared vocabulary between teams and tools
+
+---
+
+## 🤝 Human + Machine Collaboration
+
+Bridge isn’t just about simplifying queries — it’s about aligning intent across disciplines.
+
+- **Analysts** define reusable terms and business logic
+- **Engineers** map those terms to SQL or Spark
+- **AI Agents** can generate Bridge DSL from natural questions
+- **Systems** compile and execute those commands safely
+
+The vision is to create a **living interface** where meaning, data, and execution are co-created — with Bridge acting as a shared dialect.
