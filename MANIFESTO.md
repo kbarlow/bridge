@@ -1,49 +1,36 @@
+# 🧭 Bridge Manifesto
 
----
+## Why We Exist
 
-### 📜 `MANIFESTO.md`
+Bridge is a language for humans and machines to meet in the middle.
 
-```markdown
-# Bridge Manifesto
+As data systems grow more complex and AI agents more capable, we believe there's a need for a shared interface — a medium where business intent, machine logic, and human understanding align.
 
-We believe the next great language won’t be built **for** humans or **for** machines, but **with** both.
+Bridge isn't about replacing SQL or making things "easier." It's about expressing intent clearly, semantically, and collaboratively — in a way that:
+- Humans can read and write confidently
+- Machines can interpret and execute reliably
+- Teams can evolve together
 
-Bridge is our shared attempt to create a language that:
-- Thinks with us, not just for us
-- Clarifies ambiguity instead of crashing on it
-- Honors precision without sacrificing poetry
-- Builds understanding, not just pipelines
+## Our Principles
 
----
+### 1. Meaning First
+We care about *what* you're trying to say, not just *how* you say it. Semantics before syntax.
 
-## Core Principles
+### 2. Decouple Logic from Structure
+Business rules and logic shouldn't be trapped in fragile SQL strings. They should live at a higher layer — versioned, validated, and reusable.
 
-### 🧠 Human-Readable First
-If a domain expert can't understand a statement, it's not Bridge.
+### 3. Make the Invisible Visible
+Bridge makes assumptions explicit. Terms like `good_customer` or `net_deposits` carry deep meaning — and we make that meaning visible and shared.
 
-### 🤝 Conversational, Not Command-Based
-Bridge asks questions. It clarifies. It evolves with the user.
+### 4. Grow Through Collaboration
+The language is meant to evolve — through real-world use, feedback, and human-AI cooperation. It’s not a static spec, but a living dialogue.
 
-### 🌱 Composable and Named
-Every concept can be named, reused, extended, and explored — like musical themes or Lego bricks.
+### 5. Respect Both Sides
+We respect the strengths of human judgment *and* machine precision. Bridge is not here to replace either — but to enhance both.
 
-### 🔍 Explainable by Design
-Every output must carry with it its assumptions, derivation, and data lineage.
+## A Language Between Worlds
 
-### 🛠️ Executable and Flexible
-Statements should compile into SQL, Python, Spark, etc. — but feel more like writing than programming.
+As AI systems become more fluent in human language, and humans more fluent in data, Bridge offers a place to meet in the middle.
 
-### 🧬 Evolvable with Context
-Bridge should learn from usage, organizational semantics, and personal style — without losing structure.
 
----
-
-## A Language of Thought
-
-This is not just about better queries — it’s about giving thought a durable, expressive medium.
-
-Bridge is not the end. It's a stepping stone.
-
-A bridge.
-
-Join us.
+— The Bridge Project
